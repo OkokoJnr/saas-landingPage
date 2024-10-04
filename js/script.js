@@ -27,3 +27,10 @@ document.addEventListener('DOMContentLoaded', function(){
         })
     })
 })
+
+document.addEventListener('DOMContentLoaded', ()=>{
+const hamburger = document.querySelector('.navbar button.hamburger-button')
+hamburger.addEventListener('click',(e)=>{
+    document.querySelector('.navbar .mobile-menu').classList.toggle('active')
+})
+})
